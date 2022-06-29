@@ -9,7 +9,7 @@
 	* All The first line of all your files should be exactly **#!/usr/bin/python3**
 	* A README.md file at the root of the repo, containing a description of the repository
 	* A README.md file, at the root of the folder of this project, is mandatory
-	* Your code should use the **[pycodestyle](https://pypi.org/project/pycodestyle/) _(version 2.8.*)_**
+	* Your code should use the [pycodestyle](https://pypi.org/project/pycodestyle/) _(version 2.8.*)_
 	* All your files must be executable
 	* The length of your files will be tested using wc
 
