@@ -15,7 +15,7 @@ def main():
         print(f"{length} {word}:")
 
     if length >= 1:
-        for count, args in enumerate(argv, 0):
+        for count, args in enumerate(argv):
             if count == 0:
                 continue
             print(f"{count}: {args}")
