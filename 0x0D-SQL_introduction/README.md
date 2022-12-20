@@ -25,9 +25,9 @@ To connect your MySQL Server:
         $ sudo mysql
         Welcome to the MySQL monitor.  Commands end with ; or \g.
         Your MySQL connection id is 11
-        Server version: 8.0.25-0ubuntu0.20.04.1 (Ubuntu)
+        Server version: 8.0.31-0ubuntu0.20.04.2 (Ubuntu)
 
-        Copyright (c) 2000, 2021, Oracle and/or its affiliates.
+        Copyright (c) 2000, 2022, Oracle and/or its affiliates.
 
         Oracle is a registered trademark of Oracle Corporation and/or its
         affiliates. Other names may be trademarks of their respective
@@ -38,3 +38,4 @@ To connect your MySQL Server:
         mysql>
         mysql> exit
         Bye
+        $
