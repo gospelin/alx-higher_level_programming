@@ -12,3 +12,6 @@
 To install MySQL on **Ubuntu 20.04 LTS**
 
 $ sudo apt update
+...
+
+$ sudo apt install mysql-server 
