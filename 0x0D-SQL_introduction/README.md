@@ -11,16 +11,16 @@
 
 To install MySQL on **Ubuntu 20.04 LTS**
 
-$ sudo apt update && sudo apt install mysql-server
-........
+ $ sudo apt update && sudo apt install mysql-server
+ ........
 
-$ mysql --version
-mysql  Ver 8.0.31-0ubuntu0.20.04.2 for Linux on x86_64 ((Ubuntu))
-$
+ $ mysql --version
+ mysql  Ver 8.0.31-0ubuntu0.20.04.2 for Linux on x86_64 ((Ubuntu))
+ $
 
 To connect your MySQL Server:
 
-$ sudo mysql
+ $ sudo mysql
 Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 11
 Server version: 8.0.25-0ubuntu0.20.04.1 (Ubuntu)
