@@ -1,10 +1,10 @@
 # SQL Introduction
 
-## Information
+## Instructions
 
 * All files were executed on Ubuntu 20.04 LTS using **MySQL 8.0 (version 8.0.31)**
 * All files end with a new line.
-* All SQL queries startt with a comment describing the task
+* All SQL queries start with a comment describing the task
 * All SQL keywords are in uppercase
 
 ## Installation
@@ -39,3 +39,10 @@ To connect your MySQL Server:
         mysql> exit
         Bye
         $
+
+## Files
+
+| Filename | Description |
+  --------   -----------
+| 0-list_databases.sql | Script to List all databases in MySQL Server |
+| 1-create_database_if_missing.sql | Script to Create a database without error |
