@@ -43,6 +43,6 @@ To connect your MySQL Server:
 ## Files
 
 | Filename | Description |
-  --------   -----------
+| -------- | ----------- |
 | 0-list_databases.sql | Script to List all databases in MySQL Server |
 | 1-create_database_if_missing.sql | Script to Create a database without error |
