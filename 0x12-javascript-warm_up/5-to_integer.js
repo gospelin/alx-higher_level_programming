@@ -5,5 +5,5 @@ num = Number(num);
 if ((num === undefined) || isNaN(num)) {
   console.log('Not a number');
 } else {
-  console.log(`My Number: ${num}`);
+  console.log(`My number: ${num}`);
 }
