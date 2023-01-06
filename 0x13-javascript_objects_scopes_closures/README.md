@@ -4,6 +4,8 @@
 
 >* **Ubuntu 20.04 LTS**
 >* **Semistandard compliant (version 16.0.1)**
+>* **NodeJS (version 18.12.1)**
+>* **ECMAScript 2015 (ES6)**
 
 ## Documentations | Resources
 
@@ -15,11 +17,12 @@
 
 ## Installations
 
->**Install Node 14**
+>**Install Node 18**
 
-    $ curl -sL <https://deb.nodesource.com/setup_14.x> | sudo -E bash -
-    $ sudo apt-get install -y nodejs
-    $
+  > curl -sL <https://deb.nodesource.com/setup_18.x> | sudo -E bash - && \ 
+  >  
+  > sudo apt-get install -y node
+
 
 >**Install semi-standard**
 
