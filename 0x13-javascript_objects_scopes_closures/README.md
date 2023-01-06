@@ -19,12 +19,10 @@
 
 >**Install Node 18**
 
-  > curl -sL <https://deb.nodesource.com/setup_18.x> | sudo -E bash - && \ 
-  >  
-  > sudo apt-get install -y node
+    curl -fssL <https://deb.nodesource.com/setup_18.x> | sudo -E bash - && \  
+    sudo apt-get install -y node
 
 
 >**Install semi-standard**
 
-    $ sudo npm install semistandard --global
-    $
+    sudo npm install semistandard --global
