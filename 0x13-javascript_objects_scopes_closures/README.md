@@ -19,9 +19,8 @@
 
 >**Install Node 18**
 
-    curl -fssL https://deb.nodesource.com/setup_18.x | sudo -E bash - && \  
+    curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - &&\  
     sudo apt-get install -y node
-
 
 >**Install semi-standard**
 
