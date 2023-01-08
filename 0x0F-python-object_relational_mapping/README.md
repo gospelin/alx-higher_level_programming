@@ -1,4 +1,4 @@
-# JAVASCRIPT
+# PYTHON: OBJECT RELATIONAL MAPPING (ORM)
 
 ## Technologies
 
