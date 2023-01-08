@@ -46,8 +46,6 @@ ______________
     sudo pip3 install mysqlclient
 
 >**To view the version installed**
->
->```
-    $ python3``
->
+
+``$ python3``
 
