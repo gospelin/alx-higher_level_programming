@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 """
-Query to select all rows from states table.
-
-The Query performs a simple task of printing out as a tuple the data.
+List all states from the database hbtn_0e_0_usa
 """
 import MySQLdb
 from sys import argv
