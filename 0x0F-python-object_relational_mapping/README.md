@@ -16,11 +16,9 @@
 ---
 ---
 >
->* **[AirBnB Style Guide](https://github.com/airbnb/javascript)**
->* **[pycodestyle](https://pypi.org/project/pycodestyle/)**
->* **[Modern JS](https://github.com/mbeaudru/modern-js-cheatsheet)**
->* **[Simple Intro to NodeJS Module Scope](http://51elliot.blogspot.com/2012/01/simple-intro-to-nodejs-module-scope.html)**
->* **[JavaScript Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)**
+>* **[MySQLdb Docs](https://mysqlclient.readthedocs.io/)**
+>* **[pycodestyle Guide](https://pypi.org/project/pycodestyle/)**
+>* **[SQLAlchemy Tutorial](https://docs.sqlalchemy.org/en/13/orm/tutorial.html)**
 >
 >
 ---
