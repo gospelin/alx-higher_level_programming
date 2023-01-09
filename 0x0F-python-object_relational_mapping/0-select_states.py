@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-"""Query to select all rows from states table."""
+"""Query to select all rows from states table.
+
+The Query performs a simple task of printing out as a tuple the data.
+"""
 import MySQLdb
 from sys import argv
 
