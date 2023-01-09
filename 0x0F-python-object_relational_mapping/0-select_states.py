@@ -5,24 +5,26 @@ List all states from the database hbtn_0e_0_usa
 import MySQLdb
 from sys import argv
 
-db_key = []
+if __name__ == '__main__':
 
-for args in argv[1:]:
-    db_key.append(args)
+    db_key = []
 
-conn = MySQLdb.connect(
-                        host="localhost",
-                        port=3306, user=f"{db_key[0]}",
-                        passwd=f"{db_key[1]}",
-                        db=f"{db_key[2]}"
-                      )
-cur = conn.cursor()
-cur.execute("SELECT * FROM states ORDER BY states.id ASC")
+    for args in argv[1:]:
+        db_key.append(args)
 
-query_rows = cur.fetchall()
+    conn = MySQLdb.connect(
+                            host="localhost",
+                            port=3306, user=f"{db_key[0]}",
+                            passwd=f"{db_key[1]}",
+                            db=f"{db_key[2]}"
+                          )
+    cur = conn.cursor()
+    cur.execute("SELECT * FROM states ORDER BY states.id ASC")
 
-for row in query_rows:
-    print(row)
+    query_rows = cur.fetchall()
 
-cur.close()
-conn.close()
+    for row in query_rows:
+        print(row)
+
+    cur.close()
+    conn.close()
