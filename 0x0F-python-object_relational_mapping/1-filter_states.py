@@ -22,7 +22,7 @@ if __name__ == '__main__':
 
     cur = db.cursor()
     cur.execute("SELECT * FROM states \
-                WHERE states.name LIKE 'N%' ORDER BY states.id ASC")
+                WHERE states.name LIKE BINARY 'N%' ORDER BY states.id ASC")
     states = cur.fetchall()
 
     for state in states:
