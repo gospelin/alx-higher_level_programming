@@ -22,8 +22,8 @@ if __name__ == '__main__':
     # Create a pointer to database
     cur = db.cursor()
     sql = """SELECT cities.id, cities.name, states.name FROM cities
-          INNER JOIN states WHERE states.id = state_id
-          ORDER BY cities.id ASC LIMIT 15"""
+          CROSS JOIN states WHERE states.id = state_id
+          ORDER BY cities.id AS"""
 
     # Execute sql command
     cur.execute(sql)
