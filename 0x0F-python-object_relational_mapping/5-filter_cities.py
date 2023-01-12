@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-List all cities in states from database
+List all cities by states from database
 """
 import MySQLdb
 from sys import argv
@@ -35,10 +35,11 @@ if __name__ == '__main__':
 
     output = ""
 
-    # Display the result
+    # Concatenate the result
     for state in states:
         output += f"{state[0]}, "
 
+    # Display states
     print(output[:-2])
 
     # Close database connection
