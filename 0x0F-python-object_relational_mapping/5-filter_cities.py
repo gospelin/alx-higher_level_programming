@@ -22,7 +22,7 @@ if __name__ == '__main__':
 
     # Create a pointer to database
     cur = db.cursor()
-    sql = """SELECT cities.id, cities.name FROM cities
+    sql = """SELECT cities.name FROM cities
           INNER JOIN states on cities.state_id = states.id
           WHERE states.name = %s
           ORDER BY cities.id"""
@@ -33,16 +33,13 @@ if __name__ == '__main__':
     # Store the output from database
     states = cur.fetchall()
 
-    # output = set()
+    output = ""
 
     # Display the result
-    # for state in states:
-    #    output.add(state[1])
+    for state in states:
+        output += f"{state[0]}, "
 
-    # for state in output:
-    #    print(", ".join(state))
-
-    print(", ".join([state[1] for state in states]))
+    print(output[:-2])
 
     # Close database connection
     cur.close()
